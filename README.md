@@ -11,9 +11,8 @@ Install directly from GitHub:
 ```r
 install.packages("devtools")
 devtools::install_github("FranMigl/JZILGM")
-install.packages("netUtils")
 ```
-Or install locally by donwloading and then from the package directory:
+Or install locally by donwloading and then running in R:
 
 ```r
 devtools::install("path/to/JZILGM")
@@ -47,6 +46,7 @@ Each matrix typically represents **a different experiment or dataset generated f
 The following example illustrates joint network estimation from multiple matrices generated from the same ground-truth network.
 
 library(JZILGM)
+install.packages("netUtils")
 library(netUtils)
 
 # Generate the ground-truth network

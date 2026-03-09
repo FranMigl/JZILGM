@@ -1,8 +1,8 @@
 # JZILGM
 
-**JZILGM** implements Joint Zero-Inflated Local Graphical Models on Negative Binomial distrubuted count data, with the purpose of data integration and network inference.
+**JZILGM** implements Joint Zero-Inflated Local Graphical Models on Negative Binomial distributed count data, with the purpose of data integration and network inference.
 
-The method estimates association networks from variables od count data using a **zero-inflated negative binomial graphical model** with **group penalties**, allowing joint inference across **multiple datasets**.
+The method estimates association networks from count data variables using a **zero-inflated negative binomial graphical model** with **group penalties**, allowing joint inference across **multiple datasets**.
 
 ## Installation
 
@@ -12,7 +12,7 @@ Install directly from GitHub:
 install.packages("devtools")
 devtools::install_github("FranMigl/JZILGM")
 ```
-Or install locally by donwloading and then running in R:
+Or install locally by downloading and then running in R:
 
 ```r
 devtools::install("path/to/JZILGM")
